@@ -278,10 +278,34 @@ body{
     margin-bottom: 20px;
 }
 
-.dark-olive-container h3{
-    margin-top: 40px;
-    font-size: larger;
+.container3{
+    display: inline-block;
 }
+
+.text{
+    margin-top: 55px;
+    margin-left: 50px;
+    font-size: 2em;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+       typing 2s steps(20),
+       cursor .4s step-end infinite alternate;
+}
+
+/* Typing Blinking of Cursor*/
+@keyframes cursor{
+    50%{border-color: transparent;}
+}
+
+@keyframes typing{
+    from{width: 0}
+}
+
 .section {
     display: flex;
     margin-bottom: 40px;
