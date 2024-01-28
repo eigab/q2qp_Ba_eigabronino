@@ -209,7 +209,7 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 20px;
-    margin-bottom: 75%;
+    margin-bottom: 65%;
 }
 
 .dropdown2 {
@@ -262,4 +262,96 @@ body{
 
 .dropdown2:hover .dropdown-content2 {
     display: block;
+}
+
+/* ABOUT US HTML*/
+
+
+.dark-olive-container {
+    background-color: #556B2F; /* Dark Olive Green */
+    color: #fff; /* Text color */
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dark-olive-container h3{
+    margin-top: 40px;
+    font-size: larger;
+}
+.section {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.left-box {
+    flex: 1;
+    text-align: center;
+}
+
+.image-box {
+    display: inline-block;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.image-box img {
+    display: block;
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.right-box {
+    flex: 1;
+    padding: 0 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.half-box {
+    flex: 1;
+    padding: 0 10px;
+    text-align: center;
+    color: black;
+}
+
+.help-section {
+    position: relative;
+    background-color: olivedrab;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.img-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10%;
+}
+
+.text-box {
+    padding-left: 35%; 
+}
+
+.help-button {
+    background-color: #B2AC88;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
 }
